@@ -11,7 +11,7 @@ public class RemoveDuplicatesFromSortedArray {
 	 */
 	public static void removeDuplicatesFromSortedArray(int arr[]) {
 		int arrLength = arr.length;
-		int res = 1;
+		int res = 1; 
 
 		for (int i = 1; i < arrLength; i++) {
 			if (arr[i] != arr[res - 1]) {

@@ -2,6 +2,11 @@ package arrays;
 
 import java.util.Arrays;
 
+/**
+ * -	We have to move all the zeroes present in the array to the rightmost position, That is, at the end.
+ * @author user
+ *
+ */
 public class MoveAllZeroesToTheEnd {
 
 	/**

@@ -3,6 +3,7 @@ package arrays;
 /**
  * - We have an array where we have to find the maximum sum any subarray would be able to create.
  * - There are two solutions listed, naive and efficient.
+ * - Susbarray means contiguous. Elements are continuous.
  * 
  * @author Piyush Dangre
  *

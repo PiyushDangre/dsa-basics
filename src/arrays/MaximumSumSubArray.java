@@ -41,6 +41,7 @@ public class MaximumSumSubArray {
 	 * - Mark sum until now(maxSum) and res as the value of first element.
 	 * - for every element, check which is the maximum from that element or that element + previously calculated sum until now.
 	 * - The key choice is either to extend the previous sub array or start a new subarray
+	 * - This is also called Kadane's Algorithm
 	 * @param arr
 	 * @return
 	 */

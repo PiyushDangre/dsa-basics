@@ -3,6 +3,11 @@ package arrays;
 /**
  * - Given an array of integers, find out the element which is in majority.
  * - By majority we mean element that occurs more than n/2 time where n is size of array.
+ * 
+ * 	 * - Better solution uses Moore's Voting algorithm.
+	 * - Better explanation can be found at following YouTube video
+	 * - https://www.youtube.com/watch?v=n5QY3x_GNDg
+	 * 
  * @author Piyush Dangre
  *
  */

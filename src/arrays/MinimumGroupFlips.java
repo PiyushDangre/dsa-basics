@@ -49,7 +49,7 @@ public class MinimumGroupFlips {
 	
 	public static void main(String[] args) {
 		// let array
-		int arr[] = {1,1,0,0,0,1,1,0,0,1,1,1};
+		int arr[] = {1,1,1};
 		mySolution(arr);
 		
 	}

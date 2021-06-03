@@ -2,6 +2,7 @@ package arrays;
 
 /**
  * - We are given an array and int k . We have to find the maximum sum of k consecutive elements within the array.
+ * 
  * @author Piyush Dangre
  *
  */

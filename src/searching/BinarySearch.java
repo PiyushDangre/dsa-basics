@@ -1,7 +1,9 @@
 package searching;
 
 /**
- * - Simple implementation of binary search - The array has to be sorted.
+ * - Simple implementation of binary search 
+ * - The array has to be sorted.
+ * - This is iterative approach
  * 
  * @author Piyush Dangre
  *

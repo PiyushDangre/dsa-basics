@@ -1,10 +1,10 @@
 package searching;
 
 /**
- * - Problem is to count occurences of array in sorted array.
- * - If we search linearly for the array element then the complexoty would be O(n).
+ * - Problem is to count occurrences of array in sorted array.
+ * - If we search linearly for the array element then the complexity would be O(n).
  * - We can do this much easily by using binary search in O(logn).
- * - We just have to find the index of last occurence and first occurence, and then find the difference between them. The difference is the no. of outlets.
+ * - We just have to find the index of last occurrence and first occurrence, and then find the difference between them. The difference is the no. of outlets.
  * - The whole problem is solved using binary search.
  * 
  * @author Piyush Dangre

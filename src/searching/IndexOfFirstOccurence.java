@@ -20,9 +20,9 @@ public class IndexOfFirstOccurence {
 			mid = (high + low) / 2;
 			
 			if(arr[mid] < k) {
-				low = low + 1;
+				low = mid + 1;
 			}else if (arr[mid] > k){
-				high = high -1 ;
+				high = mid -1 ;
 			}else {
 				// Code has entered this block means it has found the equal element. Now we have to just ensure if it is the first occurence or not.
 				if(mid ==  0 || arr[mid] != arr[mid-1]) {

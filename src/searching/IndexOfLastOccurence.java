@@ -2,6 +2,7 @@ package searching;
 
 /**
  * This is in similar fashion as in IndexOfFirstOccurence program.
+ * Remember for binary search to work, array has to be sorted.
  * 
  * @author Piyush Dangre
  *

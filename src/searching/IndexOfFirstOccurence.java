@@ -28,7 +28,7 @@ public class IndexOfFirstOccurence {
 				if(mid ==  0 || arr[mid] != arr[mid-1]) {
 					return mid;
 				}else {
-					high = high-1;
+					high = mid-1;
 				}
 			}
 		}
@@ -38,7 +38,7 @@ public class IndexOfFirstOccurence {
 	
 	public static void main(String[] args) {
 		int arr[] = {5,10,10,20,20};
-		int k = 20;
+		int k = 10;
 		int firstOccur = search(arr, k);
 		System.out.println("First occurence is "+firstOccur);
 	}
